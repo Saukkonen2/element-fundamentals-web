@@ -1,0 +1,31 @@
+<!doctype html>
+<!--
+  Element Fundamentals: a rigidez de elementos sólidos lineares e quadráticos, com resultados do Ansys.
+  Todo texto vem dos catálogos em i18n/; os dados em data/ são gerados por prep/build.py.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#10151C">
+<title>Element Fundamentals</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/selawk.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="desk">
+<div id="app" class="app" data-theme="dark">
+  <header class="bar" id="bar"></header>
+  <div class="body">
+    <aside class="column" id="column"></aside>
+    <main class="figure" id="figure"></main>
+  </div>
+  <div id="panel" class="panel" role="dialog" hidden></div>
+  <div id="share" class="share" hidden></div>
+</div>
+<noscript>Element Fundamentals precisa de JavaScript.</noscript>
+<script src="app.js"></script>
+</body>
+</html>
